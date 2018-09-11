@@ -48,7 +48,7 @@
                     <td><%= rs.getString("idPourse") %></td>
                     <td><%= rs.getString("nomPourse") %></td>
                     <td><%= rs.getString("agePourse") %></td>
-                    <td>$<%= rs.getInt("dateNaissancePourse") %></td>
+                    <td><%= rs.getInt("dateNaissancePourse") %></td>
                     <td><%= rs.getInt("prixPourse") %></td>
                 </tr>
                 <%
@@ -61,7 +61,7 @@
                       rs.close();
                       pst.close();
                       connection.close();
-                    }
+                    
                 %>
         
         </body>
