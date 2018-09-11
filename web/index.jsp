@@ -46,9 +46,11 @@
 				<input type="submit" value="Submit">
 			</fieldset>          
 		</form>
-                <fieldset>
+                <form method="post" action="P2.jsp">
+                       <fieldset>
 				<legend>BD</legend>	
 				<input type="submit" value="Submit">
-                </fieldset>          
+                       </fieldset>
+                </form>          
         </body>
 </html>
